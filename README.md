@@ -1,4 +1,4 @@
-# Powershell-Windows-System-Health-Automation
+# Windows-System-Health-Automation
 
 ## Windows System Health Reporter (PowerShell)
 A robust PowerShell script designed to automate daily system administration checks on Windows environments and compile the results into a single, clean HTML report. This tool streamlines system health auditing, drastically reducing the time spent manually reviewing logs and metrics.
