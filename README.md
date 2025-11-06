@@ -1,2 +1,31 @@
 # Powershell-Windows-System-Health-Automation
-Automates daily system checks (disk, services, event logs) and compiles a single, professional HTML report
+
+## Windows System Health Reporter (PowerShell)
+A robust PowerShell script designed to automate daily system administration checks on Windows environments and compile the results into a single, clean HTML report. This tool streamlines system health auditing, drastically reducing the time spent manually reviewing logs and metrics.
+
+## Key Features
+This script provides an immediate, aggregated status update across three critical system areas:
+
+**Disk Space Monitoring:** Checks all local fixed drives and calculates Total GB, Free GB, and Used Percentage for quick capacity review.
+
+**Critical Service Status:** Audits the status of essential services (EventLog, wuauserv, Spooler, etc.) and highlights any services that are Stopped but set to start automatically.
+
+**Event Log Review:** Uses the modern Get-WinEvent cmdlet to query the System and Application logs for all Errors and Warnings generated in the last 24 hours.
+
+**Professional HTML Output:** Generates a single, timestamped HTML file for easy sharing, archiving, and review.
+
+### Getting Started
+
+#### Prerequisites
+
+A Windows machine running PowerShell 5.1 or newer (PowerShell 7+ is recommended).
+
+Script execution permission (Set using: Set-ExecutionPolicy RemoteSigned -Scope CurrentUser).
+
+#### Installation and Execution
+
+1. Clone the Repository:
+   ```
+   git clone 
+    cd system-health-reporter
+   ```
